@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4161AC1727B011EA007D2F4D /* OnboardingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4161AC1627B011EA007D2F4D /* OnboardingFeature.swift */; };
+		2BCCFEE0DE97583D3035E5AD /* OnboardingFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F87E4B43F6E8A39BB333FEE /* OnboardingFeature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		046D53D1B9D6AA9697FEB253 /* Onboarding.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Onboarding.plist; sourceTree = "<group>"; };
-		4161AC1627B011EA007D2F4D /* OnboardingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFeature.swift; sourceTree = "<group>"; };
+		1F87E4B43F6E8A39BB333FEE /* OnboardingFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFeature.swift; sourceTree = "<group>"; };
 		9FCB74F6A0917EC8F5134AF3 /* Onboarding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Onboarding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,27 +48,19 @@
 			path = Derived;
 			sourceTree = "<group>";
 		};
-		4161AC1427B011BA007D2F4D /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				4161AC1527B011C7007D2F4D /* Source */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		4161AC1527B011C7007D2F4D /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				4161AC1627B011EA007D2F4D /* OnboardingFeature.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		4F8CF16CDF8D2C5C8B43020F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F69080D037E58E0748FD9B1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1F87E4B43F6E8A39BB333FEE /* OnboardingFeature.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		94F5CBAA1ED91F5B08CF82CF = {
@@ -91,8 +83,8 @@
 		BF49CB75A9BF54B184E2CFC9 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				4161AC1427B011BA007D2F4D /* Onboarding */,
 				0B84B0C68067A009D36D3CD7 /* Derived */,
+				7F69080D037E58E0748FD9B1 /* Sources */,
 			);
 			name = Project;
 			sourceTree = "<group>";
@@ -133,9 +125,6 @@
 			isa = PBXProject;
 			attributes = {
 				TargetAttributes = {
-					E73A33D74D8CBEC91B1DCFAB = {
-						LastSwiftMigration = 1300;
-					};
 				};
 			};
 			buildConfigurationList = 4D669D01C099D0F0619090CD /* Build configuration list for PBXProject "Onboarding" */;
@@ -171,7 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4161AC1727B011EA007D2F4D /* OnboardingFeature.swift in Sources */,
+				2BCCFEE0DE97583D3035E5AD /* OnboardingFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +280,6 @@
 		37049451703000A728E252CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -324,7 +312,6 @@
 		B97B674BA0AC39589225EA00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

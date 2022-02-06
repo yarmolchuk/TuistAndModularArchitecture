@@ -12,6 +12,9 @@ let target = Target(
         "TuistAndModularArchitecture/**/**"
     ],
     dependencies: [
+        .project(target: "Redux", path: "Core/Redux"),
+        .project(target: "Prelude", path: "Core/Prelude"),
+        .project(target: "Routing", path: "Core/Routing"),
         .project(target: "Onboarding", path: "Features/Onboarding")
     ],
     settings: nil
@@ -21,4 +24,3 @@ let project = Project(
     name: "TuistAndModularArchitecture",
     targets: [target]
 )
-

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Onboarding
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
