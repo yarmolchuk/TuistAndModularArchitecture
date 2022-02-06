@@ -11,7 +11,9 @@ let target = Target(
     resources: [
         "TuistAndModularArchitecture/**/**"
     ],
-    dependencies: [],
+    dependencies: [
+        .project(target: "Onboarding", path: "Features/Onboarding")
+    ],
     settings: nil
 )
 
@@ -19,3 +21,4 @@ let project = Project(
     name: "TuistAndModularArchitecture",
     targets: [target]
 )
+
