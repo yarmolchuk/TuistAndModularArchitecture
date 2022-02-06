@@ -56,15 +56,31 @@
 		4161ABF927AFF5AC007D2F4D /* TuistAndModularArchitecture */ = {
 			isa = PBXGroup;
 			children = (
-				4161ABFA27AFF5AC007D2F4D /* AppDelegate.swift */,
-				4161ABFC27AFF5AC007D2F4D /* SceneDelegate.swift */,
-				4161ABFE27AFF5AC007D2F4D /* ViewController.swift */,
+				4161AC0E27AFFAC3007D2F4D /* Source */,
 				4161AC0027AFF5AC007D2F4D /* Main.storyboard */,
 				4161AC0327AFF5AD007D2F4D /* Assets.xcassets */,
 				4161AC0527AFF5AD007D2F4D /* LaunchScreen.storyboard */,
 				4161AC0827AFF5AD007D2F4D /* Info.plist */,
 			);
 			path = TuistAndModularArchitecture;
+			sourceTree = "<group>";
+		};
+		4161AC0E27AFFAC3007D2F4D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4161AC0F27AFFAD0007D2F4D /* Application */,
+				4161ABFE27AFF5AC007D2F4D /* ViewController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		4161AC0F27AFFAD0007D2F4D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4161ABFA27AFF5AC007D2F4D /* AppDelegate.swift */,
+				4161ABFC27AFF5AC007D2F4D /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
